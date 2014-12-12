@@ -3,7 +3,7 @@ Oculus-Unity-MAX
 
 The contents of this repository provides a bridge to send head movement data between the Oculus Rift, Unity and MAX/MSP.
 
-Disclaimer and Copyright
+Disclaimer and License
 ----------------
 
 This plug-in may not be error free, fully functional, accurate or reliable. In no event will we be liable for any loss or damage of any kind arising out of or in connection with your use of this plug-in.
