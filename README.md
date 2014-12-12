@@ -10,4 +10,4 @@ There are two parts to this repository:
 2) A MAX/MSP patch (authored using MAX 6.1) is included and receives the OSC head movement messages and displays the head movement as a 3D visualisation. The patch is intended to be used as a bpatcher object around which new patches can be created.  
 
 Documention
-================
+----------------
