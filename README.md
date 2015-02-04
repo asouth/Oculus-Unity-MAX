@@ -42,3 +42,5 @@ Next, to export the OCulus HMD movement and the character movement using UDP, in
 Then expand the OVRPlayerController but keep the MovementExporter highlighted in the Object Hierarchy and drag the OVRPlayerController object onto the OVRPC attribute in the object inspector. Repeat the process but placing the OVRCameraRig into the OVRCR attribute.
 
 Now build your virtual environment as you wish, when you run the game your headmovments and WASD key press movements will be exported over UDP and can read using the corresponding MAX/MSP patch.
+
+Note that the ExportRate can be used to reduce the rate at which the positional messages are sent over UDP. By default the Export is 1 and corresponds to 1 message every time Update() is called. However if, for example, ExportRate was 4 then the positional message would only be sent every 4th time update is called.
