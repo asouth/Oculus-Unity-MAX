@@ -37,8 +37,8 @@ In the Project Heirarchy select Assets -> OVR -> Prefabs and the drag the OVRPla
 
 Now create an Empty game Object, GameObject-> Create Empty and rename it to something useful like MovementExporter.
 
-Next, to export the OCulus HMD movement and the character movement using UDP, in the project hierarchy navigate to Assets -> Scripts -> OSC -> ExportRotations and drag the ExportRotations.cs onto the MovementExporter object.
+Next, to export the OCulus HMD movement and the character movement using UDP, in the project hierarchy navigate to Assets -> Scripts and drag the ExportRotations.cs onto the MovementExporter object.
 
-Then expand the OVRPlayerController but keep the MovementExporter highlighted in the Object Hierarchy and drag the OVRPlayerController object onto the OVRPC attribute in the object object inspector. Repat the process but placing the OVRCameraRig into the OVRCR attribute.
+Then expand the OVRPlayerController but keep the MovementExporter highlighted in the Object Hierarchy and drag the OVRPlayerController object onto the OVRPC attribute in the object inspector. Repeat the process but placing the OVRCameraRig into the OVRCR attribute.
 
 Now build your virtual environment as you wish, when you run the game your headmovments and WASD key press movements will be exported over UDP and can read using the corresponding MAX/MSP patch.
