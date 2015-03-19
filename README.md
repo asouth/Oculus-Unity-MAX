@@ -43,4 +43,8 @@ Then expand the OVRPlayerController but keep the MovementExporter highlighted in
 
 Now build your virtual environment as you wish, when you run the game your headmovments and WASD key press movements will be exported over UDP and can read using the corresponding MAX/MSP patch.
 
-Note that the ExportRate can be used to reduce the rate at which the positional messages are sent over UDP. By default the Export is 1 and corresponds to 1 message every time Update() is called. However if, for example, ExportRate was 4 then the positional message would only be sent every 4th time update is called.
+Note that the ExportRate can be used to reduce the rate at which the positional messages are sent over UDP. By default the Export is 1 and corresponds to 1 message every time Update() is called. However if, for example, ExportRate was 4 then the positional message would only be sent every 4th time update is called. The ExportRate can be changed at run-time by holding Ctrl and pressing Up or Down. The unity2max.maxpat patch will display the current UDP frame rate, if it is receiving messages when the keys are pressed.
+
+The IP Address and Port number can now be changed without the need to Build the project again. Simply place a file name ipconfigfile.txt in the same folder as the executable ensure the first line reads i.e. "127.0.0.1 8000" but omitting the quotation marks.
+
+
