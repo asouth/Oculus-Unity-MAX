@@ -1,7 +1,7 @@
 Oculus-Unity-MAX
 ================
 
-The contents of this repository provides a bridge to send head movement data between the Oculus Rift, Unity and MAX/MSP. These tools have been created as product of a Royal Society Industry Research Fellowship Scheme between AECOM Ltd and AudioLab, Department of Electronics, University of York, UK.   
+The contents of this repository provides a bridge to send head movement data (yaw,pitch and roll as well as 3d co-ordinates of the player in the game world) from the Oculus Rift and Unity to MAX/MSP using UDP messaging. These tools have been created as product of a Royal Society Industry Research Fellowship Scheme between AECOM Ltd and AudioLab, Department of Electronics, University of York, UK.   
 
 Disclaimer and License
 ----------------
